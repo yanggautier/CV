@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>DevResume - Bootstrap 4 Resume/CV Template For Software Developers</title>
+	<title>{{person.information.first_name}} {{person.information.last_name}}</title>
 
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -33,7 +33,7 @@
 					<div class="row align-items-center">
 						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
 							<h2 class="resume-name mb-0 text-uppercase">
-								{{ person.information.first_name }}{{ person.information.last_name }}</h2>
+								{{ person.information.first_name }} {{ person.information.last_name }}</h2>
 							<div class="resume-tagline mb-3 mb-md-0">{{ person.information.identity }}</div>
 						</div>
 						<!--//resume-title-->
