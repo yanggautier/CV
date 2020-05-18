@@ -26,36 +26,41 @@ person = {
                 }
             ]
     },
-    'educations':
+    'formations':
     [
-        {'year': '2020',
+        {'year': '2020 ',
             'school': 'Ecole IA Microsoft by Simplon',
-            'formation': 'Data scientifique en IA'
+            'identity': 'Data scientifique en IA'
          },
 
         {'year': '2020',
             'school': 'Apple Foundation Program by Simplon',
-            'formation': 'Création d\'application mobile IOS'
+            'identity': 'Création d\'application mobile IOS'
+         },
+
+        {'year': '2019',
+            'school': ' Openclassroom.com , W3cschool.com',
+            'identity': 'Création de site web'
          },
 
         {'year': '2018',
             'school': 'Google Atelier Numérique',
-            'formation': 'Marketing digital'
+            'identity': 'Marketing digital'
          },
 
         {'year': '2017',
             'school': 'Ecole de commerce en ligne Comnicia',
-            'formation': 'Marketing et communication',
+            'identity': 'Marketing et communication',
          },
         {
             'year': '2008 - 2010',
             'school': 'Paris VII Didérot',
-            'formation': 'Licence Informatique 1 et 2ième année'
+            'identity': 'Licence Informatique 1 et 2ième année'
         },
         {
             'year': '2008',
             'school': 'Lycée générale Turgot',
-            'formation': 'Baccalauréat scientifique'
+            'identity': 'Baccalauréat scientifique'
         }
 
     ],
@@ -77,6 +82,12 @@ person = {
                     'skill': 'HTML/PHP/Javascript/Symfony'
                 },
                 {
+                    'skill': 'Analyse des données'
+                },
+                {
+                    'skill': 'Web scraping'
+                },
+                {
                     'skill': 'GitHub/Docker'
                 },
                 {
@@ -89,10 +100,7 @@ person = {
                     'skill': 'Wordpress'
                 },
                 {
-                    'skill': 'Swift'
-                },
-                {
-                    'skill': 'SwiftUI'
+                    'skill': 'Swift/SwiftUI'
                 },
                 {
                     'skill': 'Photoshop'
@@ -102,37 +110,36 @@ person = {
             [
                 {
                     'skill': 'Travail en équipe',
-                },
-                {
-                    'skill': 'Résolution de problème',
-                },
-                {
-                    'skill': 'Marketing et communication',
                 }
             ]
     },
     'interests':
         [
-        {
-            'interet': 'Lecture',
-        },
-        {
-            'interet2': 'Jeux vidéo'
-        },
-        {
-            'interet3': 'Photographie'
-        }
+            {
+                'interet': 'Lecture',
+            },
+
+            {
+                'interet': 'Jeux vidéo'
+            },
+
+            {
+                'interet': 'Photographie'
+            }
     ],
     'languages':
         [
         {
             'langue': 'Chinois',
+            'level': 'Langue maternelle'
         },
         {
-            'langue': 'Français'
+            'langue': 'Français',
+            'level': 'Bilingue'
         },
         {
-            'langue': 'Anglais'
+            'langue': 'Anglais',
+            'level': 'Scolaire'
         }
     ],
 
@@ -141,7 +148,23 @@ person = {
             'github': 'github.com/yanggautier',
             'linkedin': 'linkedin.com/in/guole-yang-409251167/',
             'instagram': 'www.instagram.com/guole/'
-    }
+    },
+    'projects':
+        [
+            {
+                'name': "Application mobile IOS Youpigoo",
+                'description':
+                    [
+                        {
+                            'p': "Ce projet consite créer une application mobile IOS à partir d'une simple idée à la conception puis à la réalisation."
+                        },
+                        {
+                            'p': "Cette application sert à organiser et optimiser le voyaege selon 3 critères: temps, l'argent et le rythme de voyage"
+                        }
+                    ],
+                'status': 'En équipe'
+            }
+    ]
 }
 
 
